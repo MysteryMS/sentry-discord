@@ -9,7 +9,7 @@
   },
   "repository": "ianmitchell/sentry-discord",
   "license": "MIT",
-  "main": "api/index.js",
+  "main": "./api/index.js",
   "scripts": {
     "start": "node ."
   },
