@@ -11,7 +11,7 @@ const COLORS = {
 module.exports = async (request, response) => {
   try {
     const { body } = request;
-
+    console.log(body)
     const payload = {
       username: 'Sentry',
       avatar_url: `https://raw.githubusercontent.com/IanMitchell/sentry-discord/master/sentry-icon.png`,
